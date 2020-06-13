@@ -11,7 +11,7 @@ pub use tokio_postgres::*;
 
 use std::io;
 use tokio_postgres::tls::{NoTls, NoTlsStream};
-use tokio_postgres::{Client, Connection};
+pub use tokio_postgres::{Client, Connection};
 
 /// Connect to postgres server.
 ///
